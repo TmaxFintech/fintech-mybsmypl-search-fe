@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  height: 3rem;
+  padding: 0.5em 1rem;
+}
+
+.input {
+  font-size: 1.2rem;
+  outline: 0;
+  border-radius: 30px;
+  border: 1px solid;
+  border-image: linear-gradient(to left, #6fc4fd 0%, #ff67a4 100%);
+  border-image-slice: 1;
+  padding: 10px;
+  color: #002d4b;
+}
+
+.button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.buttonImg {
+  height: 100%;
+}
